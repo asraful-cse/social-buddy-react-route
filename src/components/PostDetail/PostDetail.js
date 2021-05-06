@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import Comments from '../Comments/Comments';
+
 
 
 
@@ -35,9 +35,7 @@ const PostDetail = () => {
             <h5>comments: {comments.length}</h5>
             <h6>{comments.name}</h6>
             <h3>{comments.email}</h3>
-{
-    // comments.map(comment=> <Comments comment={comment}></Comments>)
-}
+
         </div>
     );
 };
